@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route, Link, withRouter } from "react-router-dom";
+import MyProjects from "./Containers/MyProjects";
+import AboutMe from "./Containers/AboutMe";
+import MyArt from "./Containers/MyArt";
+import Header from "./Components/Header";
+import Jasmine from "./Containers/Jasmine";
+import Footer from "./Components/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export default class App extends Component {
+
+    constructor() {
+        super()
+        
+        }
+
+       
+    render() {
+        return (
+          <div className = "stretchDiv">
+            <Router>
+
+              <Header/>
+
+              <div className = "mainBodyDiv">
+                <Switch>
+
+                  <Route exact path="/">
+                      <AboutMe/>
+                  </Route>
+
+                  <Route exact path="/projects">
+                      <MyProjects/>
+                  </Route>
+
+                  <Route exact path="/art">
+                      <MyArt/>
+                  </Route>
+
+                  <Route exact path="/jasmine">
+                      <Jasmine/>
+                  </Route>
+
+                </Switch>
+              </div>
+
+              <Footer/>
+            </Router>
+          </div>
+            
+        )
+    }
 }
-
-export default App;
