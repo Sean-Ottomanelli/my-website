@@ -40,9 +40,10 @@ export default class MyProjects extends Component {
                     title = "Hummingbird" 
                     src="https://player.vimeo.com/video/583032637?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     description = "Hummed song multiple choice party guessing game.
-                    One player selects a song from a list of four options and hums the tune for the other players.
-                    The other players must try to guess what song is being hummed.
-                    When one of the guessers correctly guesses the song a point is awarded to him or her and the hummer role is passed to the next player.
+                    To start a round one player selects a song from a list of four options and hums the tune for the other players.
+                    Other players the hummed song.
+                    When the song is correctly guessed, the player who guessed correctly is awarded points and the hummer role is passed.
+                    A new round begins.
                     The app uses a database of over 6,000 songs. 
                     Players can select what songs are presented based on decade."
                     frontend = "React"
@@ -51,7 +52,7 @@ export default class MyProjects extends Component {
                     title = "App-Tique Visuelle" 
                     src="https://player.vimeo.com/video/583027256?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     description = "Mock eye-wear retail website. 
-                    Users can browse items, filter and sort for diferent attributes, comment on items, and add items to cart.
+                    Users can browse items, filter and sort for different attributes, comment on items, and add items to cart.
                     Users with more than one item in their cart can narrow their selection down using the 'Compare Opticals' feature."
                     frontend = "React"
                     backend = "JSON server"/>

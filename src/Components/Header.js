@@ -16,7 +16,7 @@ export default class Header extends Component {
                 <div className = "topStripe"></div>
                 <div className = "headerMainDiv">
                     <div className = "titleDiv">
-                        <Link to="/" className = "titleText">
+                        <Link to="/my-website" className = "titleText">
                             <h3>Sean Ottomanelli</h3>
                         </Link>
                     </div>

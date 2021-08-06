@@ -26,7 +26,7 @@ export default class App extends Component {
               <div className = "mainBodyDiv">
                 <Switch>
 
-                  <Route exact path="/">
+                  <Route exact path="/my-website">
                       <AboutMe/>
                   </Route>
 
@@ -34,13 +34,13 @@ export default class App extends Component {
                       <MyProjects/>
                   </Route>
 
-                  <Route exact path="/art">
+                  {/* <Route exact path="/art">
                       <MyArt/>
                   </Route>
 
                   <Route exact path="/jasmine">
                       <Jasmine/>
-                  </Route>
+                  </Route> */}
 
                 </Switch>
               </div>
