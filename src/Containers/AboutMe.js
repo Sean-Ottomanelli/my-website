@@ -18,7 +18,7 @@ export default class AboutMe extends Component {
                 I am a full stack web developer with an M.S. in mechanical engineering and a passion for clean, clear, intuitive design.
             </p>
             <p> 
-                Have a look around my website to learn more about me, my interests, my work, and of course my dog, Jasmine.
+                Have a look around my website to learn more about me and my work.
             </p>
           </div>
             
