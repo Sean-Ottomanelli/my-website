@@ -22,13 +22,13 @@ export default class Header extends Component {
                     </div>
                     
                     <div className = "headerNavOptionsDiv">
-                        <Link to="/jasmine">
+                        {/* <Link to="/jasmine">
                             <h3>Jasmine</h3>
                         </Link>
 
                         <Link to="/art">
                             <h3>Art</h3>
-                        </Link>
+                        </Link> */}
 
                         <Link to="/projects" className = "navOptionText">
                             <h3>Projects</h3>

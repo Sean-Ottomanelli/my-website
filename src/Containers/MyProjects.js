@@ -40,8 +40,8 @@ export default class MyProjects extends Component {
                     title = "Hummingbird" 
                     src="https://player.vimeo.com/video/583032637?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                     description = "Hummed song multiple choice party guessing game.
-                    To start a round one player selects a song from a list of four options and hums the tune for the other players.
-                    Other players the hummed song.
+                    To start a round one player selects a song from a list of four song options and hums the tune for the other players.
+                    Other players try to guess the hummed song.
                     When the song is correctly guessed, the player who guessed correctly is awarded points and the hummer role is passed.
                     A new round begins.
                     The app uses a database of over 6,000 songs. 

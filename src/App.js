@@ -34,13 +34,13 @@ export default class App extends Component {
                       <MyProjects/>
                   </Route>
 
-                  {/* <Route exact path="/art">
+                  <Route exact path="/art">
                       <MyArt/>
                   </Route>
 
                   <Route exact path="/jasmine">
                       <Jasmine/>
-                  </Route> */}
+                  </Route>
 
                 </Switch>
               </div>
