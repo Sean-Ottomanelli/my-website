@@ -16,7 +16,7 @@ export default class Footer extends Component {
             <div className = "footer">
                 <div className = "footerTopStripe"></div>
                 <div className = "footerBottomStripe"></div>
-                <div className="footerContent">
+                <div className= "footerContent">
                     <h3>Footer</h3>
                     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
                     <div> <img src="LI-In-Bug.png"></img>
