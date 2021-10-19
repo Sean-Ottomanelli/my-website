@@ -13,7 +13,7 @@ export default class MyArt extends Component {
         return (
           <div>
             <h3 className = "sectionHeader">My Art</h3>
-            <p>Images of my art...</p>
+            <p>Images of my art coming soon</p>
           </div>
             
         )

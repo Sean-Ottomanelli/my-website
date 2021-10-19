@@ -126,4 +126,16 @@ iframe{
     color:whitesmoke;
     padding-right: 2em;
     padding-left:2em;
+    text-align: center;
+  }
+
+  .footer-social {
+      color:whitesmoke;
+      text-decoration: none;
+      transition: color 0.3s;
+      margin: 0 10px;
+  }
+
+  .footer-social:hover {
+    color: orange;
   }
